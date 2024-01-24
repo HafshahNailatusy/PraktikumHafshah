@@ -1,0 +1,90 @@
+/* Styles for the Beranda component */
+div {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #3498db;
+}
+
+p {
+    line-height: 1.6;
+    text-align: justify;
+    color: #333;
+}
+
+/* Optional: Add some additional styling for a cleaner look */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ecf0f1;
+}
+
+/* beranda.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Styles for the Beranda component */
+div {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2); /* Glass background color */
+    border-radius: 10px;
+    backdrop-filter: blur(10px); /* Glass blur effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #3498db;
+}
+
+p {
+    line-height: 1.6;
+    text-align: justify;
+    color: #333;
+}
+
+/* Optional: Add some additional styling for a cleaner look */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #74ebd5, #9face6); /* Gradient background */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.galeri-container img{
+    max-width: 100%; /* Gambar tidak melebihi lebar div */
+  height: auto; /* Gambar mengikuti rasio aspek asli */
+  margin-top: 10px; /* Jarak antara judul dan gambar */
+  border: 1px solid #ddd; /* Garis tepi untuk estetika */
+  border-radius: 8px; /* Tepi melengkung */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+
+}

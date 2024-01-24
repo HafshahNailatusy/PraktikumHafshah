@@ -1,0 +1,133 @@
+
+
+/* Navbar container */
+.navbar {
+    overflow: auto;
+    background-color: #333;
+   }
+   
+   /* Navbar links */
+   .navbar a {
+    float: left;
+    display: inside;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   }
+   
+   /* Navbar link on hover */
+   .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+   }
+   
+   /* Change color on active link */
+   .navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+   }
+
+
+   /* Beranda container */
+.beranda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f2f2f2;
+  }
+  
+  /* Beranda heading */
+  .beranda h2 {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  /* Beranda paragraph */
+  .beranda p {
+    font-size: 1.1rem;
+    color: #333;
+    text-align: justify;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    max-width: 600px;
+  }
+
+  /* Galeri container */
+.galeri-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f2f2f2;
+}
+
+/* Galeri heading */
+.galeri-container h2 {
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Galeri image */
+.galeri-container img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+/* Galeri paragraph */
+.galeri-container p {
+  font-size: 1.1rem;
+  color: #333;
+  text-align: justify;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  max-width: 600px;
+}
+
+/* styles.css */
+
+/* Container Styling */
+div {
+  text-align: center;
+}
+
+/* List Styling */
+h2 {
+  color: #007BFF;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f8f9fa;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+strong {
+  font-weight: bold;
+  color: #000000;
+}
+
+/* Hover Effect */
+li:hover {
+  background-color: #d1e3f8;
+  transition: background-color 0.3s ease-in-out;
+}
